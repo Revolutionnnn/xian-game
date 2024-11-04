@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/xian-game/static/css/main.96b3ac82.css",
-    "main.js": "/xian-game/static/js/main.e26d9a8b.js",
+    "main.js": "/xian-game/static/js/main.5112c2e6.js",
     "static/js/453.ac87f1b9.chunk.js": "/xian-game/static/js/453.ac87f1b9.chunk.js",
     "static/media/rock.png": "/xian-game/static/media/rock.f888f46bc6ecd413e88d.png",
     "static/media/paper.png": "/xian-game/static/media/paper.8285596ae5651a1e7a04.png",
     "static/media/scissors.png": "/xian-game/static/media/scissors.718ceab3fed5395c2aec.png",
     "index.html": "/xian-game/index.html",
     "main.96b3ac82.css.map": "/xian-game/static/css/main.96b3ac82.css.map",
-    "main.e26d9a8b.js.map": "/xian-game/static/js/main.e26d9a8b.js.map",
+    "main.5112c2e6.js.map": "/xian-game/static/js/main.5112c2e6.js.map",
     "453.ac87f1b9.chunk.js.map": "/xian-game/static/js/453.ac87f1b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96b3ac82.css",
-    "static/js/main.e26d9a8b.js"
+    "static/js/main.5112c2e6.js"
   ]
 }
