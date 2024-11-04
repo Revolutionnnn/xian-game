@@ -30,8 +30,8 @@ const Game: React.FC = () => {
   }, [walletAddress]);
 
   const networkInfo: I_NetworkSettings = {
-    chain_id: "xian-testnet-11",
-    masternode_hosts: ["https://testnet.xian.org"]
+    chain_id: "xian-network-1",
+    masternode_hosts: ["https://node.xian.org"]
   };
   
   const masternodeAPI = new Xian.MasternodeAPI(networkInfo);
@@ -101,7 +101,7 @@ const Game: React.FC = () => {
 
     const kwargs = {
       amount: 3,
-      to: 'con_prueba3'
+      to: 'con_simple_game'
     };
     
     let tx_info: I_TxInfo = {
@@ -130,7 +130,7 @@ const Game: React.FC = () => {
       let tx_info_play: I_TxInfo = {
         senderVk: walletAddress,
         chain_id: networkInfo.chain_id,
-        contractName: "con_prueba3",
+        contractName: "con_simple_game",
         methodName: "Play",
         kwargs: {
           move: movementMap[selectedOption as Option]
