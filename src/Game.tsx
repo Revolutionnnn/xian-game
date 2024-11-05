@@ -123,7 +123,7 @@ const Game: React.FC = () => {
           title: 'Error',
           text: res.error,
           icon: 'error',
-          confirmButtonText: 'Aceptar'
+          confirmButtonText: 'Accept'
         });
       }
       
@@ -147,7 +147,7 @@ const Game: React.FC = () => {
           title: 'Result',
           text: `${res_play.data.result} remember to check your balance`,
           icon: 'success',
-          confirmButtonText: 'Aceptar'
+          confirmButtonText: 'Accept'
         });
       }
     } catch (error) {
